@@ -13,6 +13,6 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?&perline=12&i=aws,js,html,css,c,arduino,cs,git,grafana,jquery,md,redis,bootstrap,dotnet,github,githubactions,linux,postman,prometheus,raspberrypi,regex,sass,stackoverflow,sentry" />
+    <img height="80" src="https://skillicons.dev/icons?&perline=12&i=aws,js,html,css,c,arduino,cs,git,grafana,jquery,md,redis,bootstrap,dotnet,github,githubactions,linux,postman,prometheus,raspberrypi,regex,sass,stackoverflow,sentry" />
   </a>
 </p>
