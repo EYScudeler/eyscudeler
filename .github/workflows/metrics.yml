@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           config_timezone: America/Sao_paulo
-          repositories_affiliations: collaborator
+          repositories_affiliations: ""
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Full history calendar
@@ -33,7 +33,7 @@ jobs:
           filename: metrics.plugin.languages.details.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          repositories_affiliations: collaborator
+          repositories_affiliations: ""
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_ignored: >-
