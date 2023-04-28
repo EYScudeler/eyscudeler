@@ -14,11 +14,13 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          config_timezone: America/Sao_paulo
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Full history calendar
         uses: lowlighter/metrics@latest
         with:
+          config_timezone: America/Sao_paulo
           filename: metrics.plugin.calendar.full.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
