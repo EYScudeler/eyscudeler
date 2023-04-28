@@ -15,11 +15,13 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           config_timezone: America/Sao_paulo
+          repositories_affiliations: organization_member
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Full history calendar
         uses: lowlighter/metrics@latest
         with:
+          repositories_affiliations: organization_member
           config_timezone: America/Sao_paulo
           filename: metrics.plugin.calendar.full.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -33,9 +35,10 @@ jobs:
           filename: metrics.plugin.languages.details.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          repositories_affiliations: organization_member
           plugin_languages: yes
           plugin_languages_ignored: >-
             html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
             gnuplot
           plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
+          plugin_languages_limit: 6
