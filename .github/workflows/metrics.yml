@@ -21,11 +21,13 @@ jobs:
       - name: Full history calendar
         uses: lowlighter/metrics@latest
         with:
+          config_timezone: America/Sao_paulo
           filename: metrics.plugin.calendar.full.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0          
+          repositories_affiliations: ""
 
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
