@@ -14,14 +14,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
           repositories_affiliations: ""
           token: ${{ secrets.METRICS_TOKEN }}
           
       - name: Full history calendar
         uses: lowlighter/metrics@latest
         with:
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
           filename: metrics.plugin.calendar.full.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -32,7 +32,7 @@ jobs:
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
         with:
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
           filename: metrics.plugin.languages.details.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
@@ -47,7 +47,7 @@ jobs:
       - name: Mildly interesting facts
         uses: lowlighter/metrics@latest
         with:
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
           filename: metrics.plugin.habits.facts.svg
           token: ${{ secrets.METRICS_TOKEN }}
           repositories_affiliations: ""
@@ -64,9 +64,11 @@ jobs:
           repositories_affiliations: ""
           base: ""
           plugin_habits: yes
-          plugin_habits_facts: no
+          plugin_habits_facts: yes
           plugin_habits_charts: yes
-          config_timezone: America/Sao_paulo
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          config_timezone: America/Sao_Paulo
 
       - name: Most used
         uses: lowlighter/metrics@latest
@@ -79,7 +81,7 @@ jobs:
           plugin_languages_ignored: >-
             css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot, arduino
           plugin_languages_limit: 6
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
 
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
@@ -93,7 +95,7 @@ jobs:
             css, tex, less, dockerfile, makefile, qmake, lex, cmake, gnuplot, arduino
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
 
       - name: Recently used
         uses: lowlighter/metrics@latest
@@ -108,7 +110,7 @@ jobs:
           plugin_languages_sections: recently-used
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 6
-          config_timezone: America/Sao_paulo
+          config_timezone: America/Sao_Paulo
 
       - name: Indepth analysis
         uses: lowlighter/metrics@latest
