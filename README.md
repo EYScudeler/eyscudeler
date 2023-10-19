@@ -1,9 +1,7 @@
 <table cellspacing="0" cellpadding="0" style="border: none;">
   <tr style="border: none;">
     <td style="vertical-align: top; border: none;" valign="top">
-      <img align="center" src="https://github-readme-stats-eyscudeler.vercel.app/api?username=eyscudeler&show_icons=true&include_all_commits=true&count_private=true&hide_border=true" alt="EYScudeler's github stats" />
-      <br/>
-      <img align="center" src="https://github-readme-stats-eyscudeler.vercel.app/api/top-langs/?username=eyscudeler&layout=compact&hide_border=true&langs_count=10&size_weight=1&count_weight=0" />
+      <img align="center" src="github-metrics.svg" />
     </td>
     <td>
       <img align="center" src="metrics.plugin.calendar.full.svg" />
