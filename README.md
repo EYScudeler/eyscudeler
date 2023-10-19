@@ -1,7 +1,9 @@
 <table cellspacing="0" cellpadding="0" style="border: none;">
   <tr style="border: none;">
     <td style="vertical-align: top; border: none;" valign="top">
-      <img align="center" src="github-metrics.svg" />
+      <img align="center" src="github-metrics.svg" /><br/>
+      <img align="center" src="metrics.plugin.habits.charts.svg" /><br/>
+      <img align="center" src="metrics.plugin.habits.facts.svg" /><br/>
     </td>
     <td>
       <img align="center" src="metrics.plugin.calendar.full.svg" />
