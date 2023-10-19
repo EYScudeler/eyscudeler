@@ -6,6 +6,7 @@
       <img align="center" src="metrics.plugin.habits.facts.svg" /><br/>
     </td>
     <td>
+      <img align="center" src="metrics.plugin.languages.details.svg" /><br/>
       <img align="center" src="metrics.plugin.calendar.full.svg" />
     </td>
   </tr>
